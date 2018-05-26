@@ -1,0 +1,175 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(image/arroway.de_concrete44_d100.png);/*your background image*/  
+   /* background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+  /*  background-size:cover;/*this sets the image to fullscreen covering the whole screen*/ 
+   /* font-size: 18px;
+    line-height: 34px; */
+    font-family: 'Arial','Helvetica Neue', Helvetica , sans-serif ;
+    color:#777;
+}
+
+.container{
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    clear: both;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    border: 2px solid #ddd;
+    padding: 30px; 
+ }
+
+
+.navbar-brand{
+   
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-left: 283px;
+}
+
+.navbar-light .navbar-brand {
+        color: white; 
+        background-color: #4aaaa5;
+        padding: 10px;
+      
+    }
+
+.nav-link{
+    color: grey;
+    border-left: 1px solid #efefef;
+}
+
+.nav-item:first-child .nav-link {
+ border-left: 0 none;
+}
+
+
+.page-header{
+    color: #4aaaa5;  
+} 
+
+/*
+.row{
+    width: 760px;
+    margin-left: 0;
+  }
+  */
+
+   /*
+.col-sm-2{
+   position: relative;
+    width: 100%; 
+     min-height: 0; 
+    padding-right: 0; 
+     padding-left: 5px;
+     margin-left: 10px; 
+} 
+*/
+h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+   
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+}
+
+h3 {
+    font-size: 1.5rem;
+    border-bottom: 0;
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    bottom:20px;
+    padding:10px;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+    position: absolute;
+    bottom: 10px;
+
+}
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px 0;
+    text-align:center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/*
+img{
+  
+    height:auto;
+    border-color: black;
+    position: relative;
+
+} */
+
+.mx-auto{
+   
+    overflow: auto;
+    position:relative;
+    float: left; 
+    margin: 20px 0 25px; 
+    opacity: 0.8;
+}
+
+
+
+
+.navbar {
+    padding: 0rem 1rem;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.contact-container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    clear: both;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    border: 2px solid #ddd;
+    padding: 30px;
+}
